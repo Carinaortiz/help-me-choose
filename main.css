@@ -1,0 +1,46 @@
+html {
+    min-height: 100%
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  background-color: #FBDA61;
+  background-image: linear-gradient(to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);
+  /* background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%); */
+  /* background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%); */
+}
+
+h1 {
+  font-family: futura;
+  font-weight: lighter;
+  font-size: 40px;
+  letter-spacing: 2px;
+  margin-bottom: 0px;
+
+}
+
+.inputSection {
+  margin: 50px 0px 80px 0px;
+  width: 400px;
+
+}
+
+.inputs {
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+
+}
+
+input {
+  margin-top: 10px;
+}
+
+.addOption {
+  margin-top: 10px;
+  
+}
