@@ -12,10 +12,24 @@
         <div class="inputs">
           <input placeholder="Skriv något"></input>
         </div>
+        <button class="addOption">Lägg till</button>
       </div>
-      <div class="knappar">
-       <button class="addOption">Lägg till</button>
+      <div class="reslutSection"></div>
        <button class="kör">Kör!</button>
-      </div>
+
+
+       <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+       <script>
+         $(function() {
+           $('.reslutSection').hide()
+
+           var add_option = function() {
+             $('.inputs').append('<input></input>')
+           }
+
+           $('.addOption').click(add_option)
+         })
+       </script>
+
   </body>
 </html>
